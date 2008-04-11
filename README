@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2211
+
+A 88 color vim scheme intended for rxvt-unicode terminals. Will also work under xterm's 256 color mode. It uses special higlight groups for Ruby, but should function with other syntaxes as well. The name is inspired from the '88 summer olympics in Seoul, South Korea. The scheme is somewhat inspired by Justin Palmer's Vibrant Ink.
+
+The latest version should be available at: http://redflavor.com/seoul.vim
+
+For a it's appearance check out this screenshot:  http://redflavor.com/seoul.png
