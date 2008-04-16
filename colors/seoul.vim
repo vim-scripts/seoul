@@ -2,8 +2,8 @@
 "
 " Name:         seoul.vim
 " Maintainer:   Eivind Uggedal <eu@redflavor.com> [http://redflavor.com]
-" Last Change:  2008-04-10
-" Version:      1.0
+" Last Change:  2008-04-16
+" Version:      1.1
 "
 " A 88 color vim scheme intended for rxvt-unicode terminals. Will also work
 " under xterm's 256 color mode. It uses special higlight groups for Ruby,
@@ -20,7 +20,7 @@ endif
 
 let colors_name = "seoul"
 
-if ! has("gui_running")
+if has("gui_running") || &t_Co == 88 || &t_Co == 256
   set t_Co=88
 
   hi Normal               ctermfg=15  ctermbg=0
